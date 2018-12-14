@@ -189,10 +189,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jX5-ct-XWf">
-                                <rect key="frame" x="20" y="104" width="261" height="23"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="23" id="3uT-lB-Xba"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="104" width="261" height="20.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Select your robot">
                                         <attributes>
@@ -207,13 +204,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="VIz-A0-YBL">
                                 <rect key="frame" x="37" y="695" width="340" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="1QX-eV-r1m"/>
+                                    <constraint firstAttribute="height" constant="128" id="dqT-fi-mhV"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAQ-5R-Zr3">
-                                <rect key="frame" x="20" y="227" width="234" height="23"/>
+                                <rect key="frame" x="20" y="224.5" width="234" height="23"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="23" id="fqw-Az-JNS"/>
+                                    <constraint firstAttribute="height" constant="23" id="aAo-XZ-JiB"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Select your process">
@@ -227,41 +224,54 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uYo-eT-Hfj">
-                                <rect key="frame" x="0.0" y="130" width="414" height="89"/>
+                                <rect key="frame" x="0.0" y="127.5" width="414" height="89"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="89" id="BLv-uT-KGz"/>
+                                    <constraint firstAttribute="height" constant="89" id="3IA-hA-7T8"/>
                                 </constraints>
                             </pickerView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgw-AK-239">
-                                <rect key="frame" x="0.0" y="258" width="414" height="95"/>
+                                <rect key="frame" x="0.0" y="255.5" width="414" height="95"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="GPe-I3-amX"/>
+                                    <constraint firstAttribute="height" constant="95" id="sSS-Jh-9KZ"/>
                                 </constraints>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgg-e4-x0K">
+                                <rect key="frame" x="284" y="44" width="96" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
+                                <inset key="imageEdgeInsets" minX="2" minY="0.0" maxX="-6" maxY="0.0"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="logout:" destination="AeM-bi-ESr" eventType="touchUpInside" id="8eG-v8-0Px"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="bottom" secondItem="VIz-A0-YBL" secondAttribute="bottom" constant="39" id="9be-Ta-q3t"/>
-                            <constraint firstItem="VIz-A0-YBL" firstAttribute="leading" secondItem="9Jz-aL-RKX" secondAttribute="leading" constant="37" id="C3v-o8-8eH"/>
-                            <constraint firstItem="mAQ-5R-Zr3" firstAttribute="leading" secondItem="jX5-ct-XWf" secondAttribute="leading" id="Fdx-Ej-Y0c"/>
-                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="leading" secondItem="OVY-Gb-A2m" secondAttribute="leading" id="HgE-xl-p9r"/>
-                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="trailing" secondItem="mAQ-5R-Zr3" secondAttribute="trailing" constant="160" id="SFV-T4-Tqx"/>
-                            <constraint firstItem="rgw-AK-239" firstAttribute="leading" secondItem="uYo-eT-Hfj" secondAttribute="leading" id="SRu-ij-mAr"/>
-                            <constraint firstItem="rgw-AK-239" firstAttribute="top" secondItem="mAQ-5R-Zr3" secondAttribute="bottom" constant="8" symbolic="YES" id="SjF-qo-87d"/>
-                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="trailing" secondItem="jX5-ct-XWf" secondAttribute="trailing" constant="133" id="Swo-jy-VXb"/>
-                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="centerX" secondItem="VIz-A0-YBL" secondAttribute="centerX" id="U4h-pO-0YG"/>
-                            <constraint firstItem="mAQ-5R-Zr3" firstAttribute="top" secondItem="uYo-eT-Hfj" secondAttribute="bottom" constant="8" symbolic="YES" id="YEs-yp-T4N"/>
-                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="top" secondItem="jX5-ct-XWf" secondAttribute="bottom" constant="3" id="bNW-AA-M7Y"/>
-                            <constraint firstItem="rgw-AK-239" firstAttribute="trailing" secondItem="uYo-eT-Hfj" secondAttribute="trailing" id="eyI-ml-5Ad"/>
-                            <constraint firstItem="VIz-A0-YBL" firstAttribute="centerX" secondItem="OVY-Gb-A2m" secondAttribute="centerX" id="lGN-Ct-WMr"/>
-                            <constraint firstItem="jX5-ct-XWf" firstAttribute="top" secondItem="9Jz-aL-RKX" secondAttribute="top" constant="60" id="lsJ-Zy-h8y"/>
-                            <constraint firstItem="jX5-ct-XWf" firstAttribute="leading" secondItem="OVY-Gb-A2m" secondAttribute="leadingMargin" id="x6B-C3-pcg"/>
+                            <constraint firstItem="rgw-AK-239" firstAttribute="centerX" secondItem="VIz-A0-YBL" secondAttribute="centerX" id="0AC-wp-zxV"/>
+                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="bottom" secondItem="VIz-A0-YBL" secondAttribute="bottom" constant="39" id="1zr-ng-cUc"/>
+                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="top" secondItem="jX5-ct-XWf" secondAttribute="bottom" constant="3" id="2Pe-cT-MQi"/>
+                            <constraint firstItem="mAQ-5R-Zr3" firstAttribute="top" secondItem="uYo-eT-Hfj" secondAttribute="bottom" constant="8" symbolic="YES" id="44Q-ou-DVa"/>
+                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="trailing" secondItem="mAQ-5R-Zr3" secondAttribute="trailing" constant="160" id="7gF-JM-rwy"/>
+                            <constraint firstItem="jX5-ct-XWf" firstAttribute="leading" secondItem="mAQ-5R-Zr3" secondAttribute="leading" id="Hgq-ef-mLt"/>
+                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="leading" secondItem="rgw-AK-239" secondAttribute="leading" id="Jj0-3i-pj1"/>
+                            <constraint firstItem="VIz-A0-YBL" firstAttribute="leading" secondItem="9Jz-aL-RKX" secondAttribute="leading" constant="37" id="LF5-dN-KdY"/>
+                            <constraint firstItem="rgw-AK-239" firstAttribute="top" secondItem="mAQ-5R-Zr3" secondAttribute="bottom" constant="8" symbolic="YES" id="SQS-ZS-MAU"/>
+                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="leading" secondItem="OVY-Gb-A2m" secondAttribute="leading" id="TBE-F2-l1S"/>
+                            <constraint firstItem="uYo-eT-Hfj" firstAttribute="trailing" secondItem="rgw-AK-239" secondAttribute="trailing" id="UMa-RJ-m4i"/>
+                            <constraint firstAttribute="trailing" secondItem="uYo-eT-Hfj" secondAttribute="trailing" id="dxH-Nb-RVu"/>
+                            <constraint firstItem="jX5-ct-XWf" firstAttribute="leading" secondItem="OVY-Gb-A2m" secondAttribute="leadingMargin" id="gcE-AB-JWN"/>
+                            <constraint firstItem="9Jz-aL-RKX" firstAttribute="trailing" secondItem="jX5-ct-XWf" secondAttribute="trailing" constant="133" id="nBg-QL-cV2"/>
+                            <constraint firstItem="jX5-ct-XWf" firstAttribute="top" secondItem="9Jz-aL-RKX" secondAttribute="top" constant="60" id="qkG-e5-hW6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Jz-aL-RKX"/>
                     </view>
                     <connections>
                         <outlet property="processPicker" destination="rgw-AK-239" id="eDF-Mz-BZY"/>
                         <outlet property="robotPicker" destination="uYo-eT-Hfj" id="jex-gS-mKy"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="logout" id="DwA-Z2-QAm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GlF-1h-fBa" userLabel="First Responder" sceneMemberID="firstResponder"/>

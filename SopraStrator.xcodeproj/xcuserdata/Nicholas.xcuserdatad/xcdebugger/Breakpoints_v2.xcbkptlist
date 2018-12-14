@@ -89,7 +89,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/DisplayPopup.swift"
-            timestampString = "566473260.617708"
+            timestampString = "566473361.1795059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -105,7 +105,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/ViewController.swift"
-            timestampString = "566473260.6178401"
+            timestampString = "566482213.747197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -153,7 +153,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/ViewController.swift"
-            timestampString = "566473260.6185319"
+            timestampString = "566482213.7489491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -281,7 +281,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/ViewController.swift"
-            timestampString = "566473260.6191289"
+            timestampString = "566482213.749119"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -345,12 +345,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/Authenticate.swift"
-            timestampString = "566473260.6197031"
+            timestampString = "566480777.625273"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "authenticate(username:password:onCompletion:onError:)"
+            landmarkName = "authenticate(tenant:username:password:onCompletion:onError:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -361,13 +361,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566473260.6197881"
+            timestampString = "566482213.749223"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -439,13 +439,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566473260.619889"
+            timestampString = "566482213.749671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -517,13 +517,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566473260.619983"
+            timestampString = "566482213.74999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "pickerView(_:titleForRow:forComponent:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -533,13 +533,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566473260.620074"
+            timestampString = "566482213.750298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "SecondViewController"
-            landmarkType = "3">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -611,7 +611,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/ViewController.swift"
-            timestampString = "566473260.620188"
+            timestampString = "566482213.750612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -659,7 +659,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/ViewController.swift"
-            timestampString = "566473260.620802"
+            timestampString = "566482213.750693"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
