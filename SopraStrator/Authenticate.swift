@@ -10,14 +10,14 @@ import Foundation
 import JavaScriptCore
 
 
-func authenticate (username :String, password: String, onCompletion: @escaping (String) -> Void, onError: @escaping (String) -> Void) {
+func authenticate (tenant: String, username :String, password: String, onCompletion: @escaping (String) -> Void, onError: @escaping (String) -> Void) {
     
     var token = ""
     var errorJson = ""
     
     //JSON DATA
     let jsonData: [String: Any] = [
-        "tenancyName": "nbjerkeSopraSteria",
+        "tenancyName": tenant,
         "usernameOrEmailAddress": username,
         "password": password
     ]

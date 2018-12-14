@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var tenantTextField: UITextField!
     
     
     override func viewDidLoad() {
@@ -36,10 +37,12 @@ class ViewController: UIViewController {
     //Run login function
     @IBAction func loginClicked(_ sender: Any) {
         
+        let tenant   = tenantTextField.text!
         let username = usernameTextField.text!
         let password = passwordTextField.text!
+        
     
-        authenticate(username: username, password: password, onCompletion: { (token) in
+        authenticate(tenant: tenant, username: username, password: password, onCompletion: { (token) in
             GlobalToken.loginToken = token
             self.loginSuccess = true
             
