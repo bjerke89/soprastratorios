@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10B01D321C29B25007A5D10 /* GetProcesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10B01D221C29B25007A5D10 /* GetProcesses.swift */; };
+		E1398B9B21BAD3E700B35CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */; };
+		E1398B9D21BAD3E700B35CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398B9C21BAD3E700B35CB8 /* ViewController.swift */; };
+		E1398BA021BAD3E700B35CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1398B9E21BAD3E700B35CB8 /* Main.storyboard */; };
+		E1398BA221BAD3E900B35CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1398BA121BAD3E900B35CB8 /* Assets.xcassets */; };
+		E1398BA521BAD3E900B35CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1398BA321BAD3E900B35CB8 /* LaunchScreen.storyboard */; };
+		E1398BB021BAD3E900B35CB8 /* SopraStratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398BAF21BAD3E900B35CB8 /* SopraStratorTests.swift */; };
+		E1398BBB21BAD3E900B35CB8 /* SopraStratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398BBA21BAD3E900B35CB8 /* SopraStratorUITests.swift */; };
+		E1398BCA21BAD75800B35CB8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E1398BC921BAD75800B35CB8 /* background.png */; };
+		E1398BCC21BAD78700B35CB8 /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = E1398BCB21BAD78700B35CB8 /* robot.png */; };
+		E13BDF1921C13E38009B1E02 /* GetRobots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BDF1821C13E38009B1E02 /* GetRobots.swift */; };
+		E13D81FC21BFD7E500BFB456 /* DisplayPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */; };
+		E140C1C621BE5AF4001C9335 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140C1C521BE5AF4001C9335 /* Authenticate.swift */; };
+		E1AFF08F21C38F4E000AB930 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AFF08E21C38F4E000AB930 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1398BAC21BAD3E900B35CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1398B8F21BAD3E700B35CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1398B9621BAD3E700B35CB8;
+			remoteInfo = SopraStrator;
+		};
+		E1398BB721BAD3E900B35CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1398B8F21BAD3E700B35CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1398B9621BAD3E700B35CB8;
+			remoteInfo = SopraStrator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E10B01D221C29B25007A5D10 /* GetProcesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProcesses.swift; sourceTree = "<group>"; };
+		E1398B9721BAD3E700B35CB8 /* SopraStrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SopraStrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1398B9C21BAD3E700B35CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1398B9F21BAD3E700B35CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1398BA121BAD3E900B35CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1398BA421BAD3E900B35CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1398BA621BAD3E900B35CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1398BAB21BAD3E900B35CB8 /* SopraStratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SopraStratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1398BAF21BAD3E900B35CB8 /* SopraStratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SopraStratorTests.swift; sourceTree = "<group>"; };
+		E1398BB121BAD3E900B35CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1398BB621BAD3E900B35CB8 /* SopraStratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SopraStratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1398BBA21BAD3E900B35CB8 /* SopraStratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SopraStratorUITests.swift; sourceTree = "<group>"; };
+		E1398BBC21BAD3E900B35CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1398BC921BAD75800B35CB8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../OneDrive - Sopra Steria/RPA Dev/UiPath API/background.png"; sourceTree = "<group>"; };
+		E1398BCB21BAD78700B35CB8 /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot.png; path = "../../../OneDrive - Sopra Steria/RPA Dev/UiPath API/robot.png"; sourceTree = "<group>"; };
+		E13BDF1821C13E38009B1E02 /* GetRobots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRobots.swift; sourceTree = "<group>"; };
+		E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPopup.swift; sourceTree = "<group>"; };
+		E140C1C521BE5AF4001C9335 /* Authenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
+		E1AFF08E21C38F4E000AB930 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1398B9421BAD3E700B35CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BA821BAD3E900B35CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BB321BAD3E900B35CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1398B8E21BAD3E700B35CB8 = {
+			isa = PBXGroup;
+			children = (
+				E1398BC821BAD71300B35CB8 /* img */,
+				E1398B9921BAD3E700B35CB8 /* SopraStrator */,
+				E1398BAE21BAD3E900B35CB8 /* SopraStratorTests */,
+				E1398BB921BAD3E900B35CB8 /* SopraStratorUITests */,
+				E1398B9821BAD3E700B35CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1398B9821BAD3E700B35CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1398B9721BAD3E700B35CB8 /* SopraStrator.app */,
+				E1398BAB21BAD3E900B35CB8 /* SopraStratorTests.xctest */,
+				E1398BB621BAD3E900B35CB8 /* SopraStratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1398B9921BAD3E700B35CB8 /* SopraStrator */ = {
+			isa = PBXGroup;
+			children = (
+				E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */,
+				E1398B9C21BAD3E700B35CB8 /* ViewController.swift */,
+				E140C1C521BE5AF4001C9335 /* Authenticate.swift */,
+				E10B01D221C29B25007A5D10 /* GetProcesses.swift */,
+				E13BDF1821C13E38009B1E02 /* GetRobots.swift */,
+				E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */,
+				E1AFF08E21C38F4E000AB930 /* SecondViewController.swift */,
+				E1398B9E21BAD3E700B35CB8 /* Main.storyboard */,
+				E1398BA121BAD3E900B35CB8 /* Assets.xcassets */,
+				E1398BA321BAD3E900B35CB8 /* LaunchScreen.storyboard */,
+				E1398BA621BAD3E900B35CB8 /* Info.plist */,
+			);
+			path = SopraStrator;
+			sourceTree = "<group>";
+		};
+		E1398BAE21BAD3E900B35CB8 /* SopraStratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1398BAF21BAD3E900B35CB8 /* SopraStratorTests.swift */,
+				E1398BB121BAD3E900B35CB8 /* Info.plist */,
+			);
+			path = SopraStratorTests;
+			sourceTree = "<group>";
+		};
+		E1398BB921BAD3E900B35CB8 /* SopraStratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1398BBA21BAD3E900B35CB8 /* SopraStratorUITests.swift */,
+				E1398BBC21BAD3E900B35CB8 /* Info.plist */,
+			);
+			path = SopraStratorUITests;
+			sourceTree = "<group>";
+		};
+		E1398BC821BAD71300B35CB8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E1398BCB21BAD78700B35CB8 /* robot.png */,
+				E1398BC921BAD75800B35CB8 /* background.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1398B9621BAD3E700B35CB8 /* SopraStrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1398BBF21BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStrator" */;
+			buildPhases = (
+				E1398B9321BAD3E700B35CB8 /* Sources */,
+				E1398B9421BAD3E700B35CB8 /* Frameworks */,
+				E1398B9521BAD3E700B35CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SopraStrator;
+			productName = SopraStrator;
+			productReference = E1398B9721BAD3E700B35CB8 /* SopraStrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1398BAA21BAD3E900B35CB8 /* SopraStratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1398BC221BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStratorTests" */;
+			buildPhases = (
+				E1398BA721BAD3E900B35CB8 /* Sources */,
+				E1398BA821BAD3E900B35CB8 /* Frameworks */,
+				E1398BA921BAD3E900B35CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1398BAD21BAD3E900B35CB8 /* PBXTargetDependency */,
+			);
+			name = SopraStratorTests;
+			productName = SopraStratorTests;
+			productReference = E1398BAB21BAD3E900B35CB8 /* SopraStratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1398BB521BAD3E900B35CB8 /* SopraStratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1398BC521BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStratorUITests" */;
+			buildPhases = (
+				E1398BB221BAD3E900B35CB8 /* Sources */,
+				E1398BB321BAD3E900B35CB8 /* Frameworks */,
+				E1398BB421BAD3E900B35CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1398BB821BAD3E900B35CB8 /* PBXTargetDependency */,
+			);
+			name = SopraStratorUITests;
+			productName = SopraStratorUITests;
+			productReference = E1398BB621BAD3E900B35CB8 /* SopraStratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1398B8F21BAD3E700B35CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nicholas Bjerke";
+				TargetAttributes = {
+					E1398B9621BAD3E700B35CB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E1398BAA21BAD3E900B35CB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1398B9621BAD3E700B35CB8;
+					};
+					E1398BB521BAD3E900B35CB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1398B9621BAD3E700B35CB8;
+					};
+				};
+			};
+			buildConfigurationList = E1398B9221BAD3E700B35CB8 /* Build configuration list for PBXProject "SopraStrator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1398B8E21BAD3E700B35CB8;
+			productRefGroup = E1398B9821BAD3E700B35CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1398B9621BAD3E700B35CB8 /* SopraStrator */,
+				E1398BAA21BAD3E900B35CB8 /* SopraStratorTests */,
+				E1398BB521BAD3E900B35CB8 /* SopraStratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1398B9521BAD3E700B35CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1398BCC21BAD78700B35CB8 /* robot.png in Resources */,
+				E1398BA521BAD3E900B35CB8 /* LaunchScreen.storyboard in Resources */,
+				E1398BCA21BAD75800B35CB8 /* background.png in Resources */,
+				E1398BA221BAD3E900B35CB8 /* Assets.xcassets in Resources */,
+				E1398BA021BAD3E700B35CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BA921BAD3E900B35CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BB421BAD3E900B35CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1398B9321BAD3E700B35CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13BDF1921C13E38009B1E02 /* GetRobots.swift in Sources */,
+				E1398B9D21BAD3E700B35CB8 /* ViewController.swift in Sources */,
+				E1398B9B21BAD3E700B35CB8 /* AppDelegate.swift in Sources */,
+				E140C1C621BE5AF4001C9335 /* Authenticate.swift in Sources */,
+				E1AFF08F21C38F4E000AB930 /* SecondViewController.swift in Sources */,
+				E13D81FC21BFD7E500BFB456 /* DisplayPopup.swift in Sources */,
+				E10B01D321C29B25007A5D10 /* GetProcesses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BA721BAD3E900B35CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1398BB021BAD3E900B35CB8 /* SopraStratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1398BB221BAD3E900B35CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1398BBB21BAD3E900B35CB8 /* SopraStratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1398BAD21BAD3E900B35CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1398B9621BAD3E700B35CB8 /* SopraStrator */;
+			targetProxy = E1398BAC21BAD3E900B35CB8 /* PBXContainerItemProxy */;
+		};
+		E1398BB821BAD3E900B35CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1398B9621BAD3E700B35CB8 /* SopraStrator */;
+			targetProxy = E1398BB721BAD3E900B35CB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1398B9E21BAD3E700B35CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1398B9F21BAD3E700B35CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1398BA321BAD3E900B35CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1398BA421BAD3E900B35CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1398BBD21BAD3E900B35CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1398BBE21BAD3E900B35CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1398BC021BAD3E900B35CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUGG575A7R;
+				INFOPLIST_FILE = SopraStrator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1398BC121BAD3E900B35CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUGG575A7R;
+				INFOPLIST_FILE = SopraStrator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1398BC321BAD3E900B35CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRDKERBRC7;
+				INFOPLIST_FILE = SopraStratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SopraStrator.app/SopraStrator";
+			};
+			name = Debug;
+		};
+		E1398BC421BAD3E900B35CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRDKERBRC7;
+				INFOPLIST_FILE = SopraStratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SopraStrator.app/SopraStrator";
+			};
+			name = Release;
+		};
+		E1398BC621BAD3E900B35CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRDKERBRC7;
+				INFOPLIST_FILE = SopraStratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SopraStrator;
+			};
+			name = Debug;
+		};
+		E1398BC721BAD3E900B35CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SRDKERBRC7;
+				INFOPLIST_FILE = SopraStratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.SopraStratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SopraStrator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1398B9221BAD3E700B35CB8 /* Build configuration list for PBXProject "SopraStrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1398BBD21BAD3E900B35CB8 /* Debug */,
+				E1398BBE21BAD3E900B35CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1398BBF21BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1398BC021BAD3E900B35CB8 /* Debug */,
+				E1398BC121BAD3E900B35CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1398BC221BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1398BC321BAD3E900B35CB8 /* Debug */,
+				E1398BC421BAD3E900B35CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1398BC521BAD3E900B35CB8 /* Build configuration list for PBXNativeTarget "SopraStratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1398BC621BAD3E900B35CB8 /* Debug */,
+				E1398BC721BAD3E900B35CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1398B8F21BAD3E700B35CB8 /* Project object */;
+}
