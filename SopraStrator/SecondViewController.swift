@@ -18,6 +18,8 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     var robotInfo = ViewController.GlobalToken.robotInfo
     var processInfo = ViewController.GlobalToken.processInfo
     
+    var selectedProcess = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,11 +45,11 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView == robotPicker {
-            let titleRow = robotInfo[row].name
-            return titleRow
+            let robotRow = robotInfo[row].name
+            return robotRow
         } else if pickerView == processPicker {
-            let titlerow = processInfo[row]
-            return titlerow
+            let processRow = processInfo[row]
+            return processRow
             }
             return ""
         }
@@ -58,5 +60,15 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         performSegue(withIdentifier: "logout", sender: self)
         
     }
+    
+    
+    @IBAction func startJob(_ sender: Any) {
+        func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+
+            
+        }
+        
+    }
+    
     
 }
