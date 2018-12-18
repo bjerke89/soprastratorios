@@ -8,9 +8,9 @@
 
 import Foundation
 
-func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String,String)]) -> Void) {
+func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String)]) -> Void) {
     
-    var robotInfo = [(String,String)]()
+    var robotInfo = [(String)]()
     
     //JSON Headers
     let url = URL(string: "https://platform.uipath.com/odata/Robots(" + String(robotId) + ")")
@@ -27,9 +27,9 @@ func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String
         //let jsonArray = json? ["value"] as! [[String:AnyObject]]
         
         
-        robotInfo.append(("MachineName: ", json? ["MachineName"] as! String))
-        robotInfo.append(("Version: ", json? ["Version"] as! String))
-        robotInfo.append(("Type: ", json? ["Type"] as! String))
+        robotInfo.append((json? ["MachineName"] as! String))
+        robotInfo.append((json? ["Version"] as! String))
+        robotInfo.append((json? ["Type"] as! String))
         
         
         onCompletion(robotInfo)

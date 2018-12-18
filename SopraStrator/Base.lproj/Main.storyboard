@@ -339,7 +339,6 @@
                     </view>
                     <connections>
                         <outlet property="processValue" destination="5Dh-UZ-IzC" id="JrP-Ta-QB5"/>
-                        <outlet property="robotInfoTable" destination="WtV-oU-gJ5" id="fYY-AN-U5f"/>
                         <outlet property="robotValue" destination="yo7-15-6dB" id="nRa-n5-twG"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="logout" id="0F2-j0-g6l"/>
                     </connections>
