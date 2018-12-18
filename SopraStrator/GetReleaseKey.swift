@@ -22,9 +22,9 @@ func getReleaseKey(token: String, processId: String, onCompletion: @escaping (St
     
     let session = URLSession.shared
     session.dataTask(with: request) {data, response, error in
-        let urlResponse = response as? HTTPURLResponse
+        /*let urlResponse = response as? HTTPURLResponse
         let statusCodeInt = urlResponse?.statusCode
-        let statusCodeStr = String(statusCodeInt!)
+        let statusCodeStr = String(statusCodeInt!)*/
         let json = try? JSONSerialization.jsonObject(with: data!, options:[]) as! [String: AnyObject]
         let jsonArray = json? ["value"] as! [[String:AnyObject]]
         

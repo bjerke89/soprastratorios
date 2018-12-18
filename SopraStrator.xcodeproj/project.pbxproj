@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		E10B01D321C29B25007A5D10 /* GetProcesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10B01D221C29B25007A5D10 /* GetProcesses.swift */; };
 		E11DFE2321C91DD1002302E4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DFE2221C91DD1002302E4 /* TableViewController.swift */; };
+		E11DFE2521C927EB002302E4 /* DisplayRobotInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DFE2421C927EB002302E4 /* DisplayRobotInfo.swift */; };
+		E11DFE2721C92BA0002302E4 /* DisplayProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DFE2621C92BA0002302E4 /* DisplayProcessInfo.swift */; };
+		E11DFE2921C92BDA002302E4 /* GetProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DFE2821C92BDA002302E4 /* GetProcessInfo.swift */; };
 		E1398B9B21BAD3E700B35CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */; };
 		E1398B9D21BAD3E700B35CB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1398B9C21BAD3E700B35CB8 /* LoginViewController.swift */; };
 		E1398BA021BAD3E700B35CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1398B9E21BAD3E700B35CB8 /* Main.storyboard */; };
@@ -19,7 +22,7 @@
 		E1398BCA21BAD75800B35CB8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E1398BC921BAD75800B35CB8 /* background.png */; };
 		E1398BCC21BAD78700B35CB8 /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = E1398BCB21BAD78700B35CB8 /* robot.png */; };
 		E13BDF1921C13E38009B1E02 /* GetRobots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BDF1821C13E38009B1E02 /* GetRobots.swift */; };
-		E13D81FC21BFD7E500BFB456 /* DisplayPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */; };
+		E13D81FC21BFD7E500BFB456 /* DisplayLoginPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D81FB21BFD7E500BFB456 /* DisplayLoginPopup.swift */; };
 		E140C1C621BE5AF4001C9335 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140C1C521BE5AF4001C9335 /* Authenticate.swift */; };
 		E158E24821C7FBF500AE4AEC /* StartJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158E24721C7FBF500AE4AEC /* StartJob.swift */; };
 		E1CE32B421C9135E0093D3C9 /* GetRobotInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE32B321C9135E0093D3C9 /* GetRobotInfo.swift */; };
@@ -47,6 +50,9 @@
 /* Begin PBXFileReference section */
 		E10B01D221C29B25007A5D10 /* GetProcesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProcesses.swift; sourceTree = "<group>"; };
 		E11DFE2221C91DD1002302E4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E11DFE2421C927EB002302E4 /* DisplayRobotInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRobotInfo.swift; sourceTree = "<group>"; };
+		E11DFE2621C92BA0002302E4 /* DisplayProcessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayProcessInfo.swift; sourceTree = "<group>"; };
+		E11DFE2821C92BDA002302E4 /* GetProcessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProcessInfo.swift; sourceTree = "<group>"; };
 		E1398B9721BAD3E700B35CB8 /* SopraStrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SopraStrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1398B9C21BAD3E700B35CB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +69,7 @@
 		E1398BC921BAD75800B35CB8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../OneDrive - Sopra Steria/RPA Dev/UiPath API/background.png"; sourceTree = "<group>"; };
 		E1398BCB21BAD78700B35CB8 /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot.png; path = "../../../OneDrive - Sopra Steria/RPA Dev/UiPath API/robot.png"; sourceTree = "<group>"; };
 		E13BDF1821C13E38009B1E02 /* GetRobots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRobots.swift; sourceTree = "<group>"; };
-		E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPopup.swift; sourceTree = "<group>"; };
+		E13D81FB21BFD7E500BFB456 /* DisplayLoginPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLoginPopup.swift; sourceTree = "<group>"; };
 		E140C1C521BE5AF4001C9335 /* Authenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
 		E158E24721C7FBF500AE4AEC /* StartJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartJob.swift; sourceTree = "<group>"; };
 		E1CE32B321C9135E0093D3C9 /* GetRobotInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRobotInfo.swift; sourceTree = "<group>"; };
@@ -122,12 +128,15 @@
 			children = (
 				E1398B9A21BAD3E700B35CB8 /* AppDelegate.swift */,
 				E1398B9C21BAD3E700B35CB8 /* LoginViewController.swift */,
+				E11DFE2421C927EB002302E4 /* DisplayRobotInfo.swift */,
+				E11DFE2621C92BA0002302E4 /* DisplayProcessInfo.swift */,
 				E140C1C521BE5AF4001C9335 /* Authenticate.swift */,
 				E158E24721C7FBF500AE4AEC /* StartJob.swift */,
 				E10B01D221C29B25007A5D10 /* GetProcesses.swift */,
 				E13BDF1821C13E38009B1E02 /* GetRobots.swift */,
-				E13D81FB21BFD7E500BFB456 /* DisplayPopup.swift */,
+				E13D81FB21BFD7E500BFB456 /* DisplayLoginPopup.swift */,
 				E1CE32B521C91CCD0093D3C9 /* SelectViewController.swift */,
+				E11DFE2821C92BDA002302E4 /* GetProcessInfo.swift */,
 				E11DFE2221C91DD1002302E4 /* TableViewController.swift */,
 				E1CE32B321C9135E0093D3C9 /* GetRobotInfo.swift */,
 				E1E1C00621C3D6A700100450 /* GetReleaseKey.swift */,
@@ -301,14 +310,17 @@
 			files = (
 				E1CE32B621C91CCD0093D3C9 /* SelectViewController.swift in Sources */,
 				E158E24821C7FBF500AE4AEC /* StartJob.swift in Sources */,
+				E11DFE2721C92BA0002302E4 /* DisplayProcessInfo.swift in Sources */,
 				E13BDF1921C13E38009B1E02 /* GetRobots.swift in Sources */,
 				E1398B9D21BAD3E700B35CB8 /* LoginViewController.swift in Sources */,
 				E1E1C00721C3D6A700100450 /* GetReleaseKey.swift in Sources */,
+				E11DFE2521C927EB002302E4 /* DisplayRobotInfo.swift in Sources */,
 				E1398B9B21BAD3E700B35CB8 /* AppDelegate.swift in Sources */,
 				E11DFE2321C91DD1002302E4 /* TableViewController.swift in Sources */,
 				E1CE32B421C9135E0093D3C9 /* GetRobotInfo.swift in Sources */,
 				E140C1C621BE5AF4001C9335 /* Authenticate.swift in Sources */,
-				E13D81FC21BFD7E500BFB456 /* DisplayPopup.swift in Sources */,
+				E13D81FC21BFD7E500BFB456 /* DisplayLoginPopup.swift in Sources */,
+				E11DFE2921C92BDA002302E4 /* GetProcessInfo.swift in Sources */,
 				E10B01D321C29B25007A5D10 /* GetProcesses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

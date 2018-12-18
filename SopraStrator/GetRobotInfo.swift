@@ -8,9 +8,9 @@
 
 import Foundation
 
-func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String)]) -> Void) {
+func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String, String)]) -> Void) {
     
-    var robotInfo = [(String)]()
+    var robotInfo = [(String, String)]()
     
     //JSON Headers
     let url = URL(string: "https://platform.uipath.com/odata/Robots(" + String(robotId) + ")")
@@ -20,16 +20,16 @@ func getRobotInfo(token: String, robotId: Int, onCompletion: @escaping ([(String
     
     let session = URLSession.shared
     session.dataTask(with: request) {data, response, error  in
-        let urlResponse = response as? HTTPURLResponse
+        /*let urlResponse = response as? HTTPURLResponse
         let statusCodeInt = urlResponse?.statusCode
-        let statusCodeStr = String(statusCodeInt!)
+        let statusCodeStr = String(statusCodeInt!)*/
         let json = try? JSONSerialization.jsonObject(with: data!, options:[]) as! [String: AnyObject]
         //let jsonArray = json? ["value"] as! [[String:AnyObject]]
         
         
-        robotInfo.append((json? ["MachineName"] as! String))
-        robotInfo.append((json? ["Version"] as! String))
-        robotInfo.append((json? ["Type"] as! String))
+        robotInfo.append(("Machine: ", json? ["MachineName"] as! String))
+        robotInfo.append(("Version: ", json? ["Version"] as! String))
+        robotInfo.append(("Type: ", json? ["Type"] as! String))
         
         
         onCompletion(robotInfo)

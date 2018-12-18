@@ -11,7 +11,7 @@ import UIKit
 
 extension UIViewController {
 
-func displayPopup(loginStatus: Bool, error: String) {
+func displayLoginPopup(loginStatus: Bool, error: String) {
     
     if (loginStatus == true) {
         let alertController = UIAlertController(title: "Login Status", message: "Login Successful", preferredStyle: .alert)

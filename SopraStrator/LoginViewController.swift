@@ -54,7 +54,7 @@ class LoginViewController: UIViewController {
                 GlobalToken.processInfo = processArr
                 
                 DispatchQueue.main.async {
-                    self.displayPopup(loginStatus: self.loginSuccess, error: self.errorMessage)
+                    self.displayLoginPopup(loginStatus: self.loginSuccess, error: self.errorMessage)
                 }
                 
             })
@@ -64,7 +64,7 @@ class LoginViewController: UIViewController {
             self.errorMessage = error
             self.loginSuccess = false
             DispatchQueue.main.async {
-                self.displayPopup(loginStatus: self.loginSuccess, error: self.errorMessage)
+                self.displayLoginPopup(loginStatus: self.loginSuccess, error: self.errorMessage)
             }
         })
       
