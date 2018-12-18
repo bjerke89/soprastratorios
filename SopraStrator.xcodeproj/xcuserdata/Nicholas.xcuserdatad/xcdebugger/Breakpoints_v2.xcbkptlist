@@ -89,7 +89,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/DisplayPopup.swift"
-            timestampString = "566473361.1795059"
+            timestampString = "566828339.398437"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -457,11 +457,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566768094.298823"
+            timestampString = "566824363.101366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
-            endingLineNumber = "105">
+            endingLineNumber = "105"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -471,13 +473,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566768094.2997479"
+            timestampString = "566824363.101796"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
             endingLineNumber = "86"
-            landmarkName = "logout(_:)"
-            landmarkType = "7">
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -487,7 +489,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/GetReleaseKey.swift"
-            timestampString = "566767068.979405"
+            timestampString = "566827527.2109309"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -503,7 +505,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/GetReleaseKey.swift"
-            timestampString = "566767068.980073"
+            timestampString = "566827527.211005"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -519,13 +521,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566768094.300306"
+            timestampString = "566824363.1022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "startJob(_:)"
-            landmarkType = "7">
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -535,7 +537,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/GetReleaseKey.swift"
-            timestampString = "566767068.980929"
+            timestampString = "566827527.211086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -551,7 +553,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/GetReleaseKey.swift"
-            timestampString = "566767068.981297"
+            timestampString = "566827527.211146"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -583,13 +585,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/SecondViewController.swift"
-            timestampString = "566768094.301085"
+            timestampString = "566824363.10259"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
             endingLineNumber = "90"
-            landmarkName = "startJob(_:)"
-            landmarkType = "7">
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -679,7 +681,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SopraStrator/GetReleaseKey.swift"
-            timestampString = "566767068.983181"
+            timestampString = "566827527.211274"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -749,6 +751,118 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "startJob(token:robotId:releasKey:onCompletion:onError:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SopraStrator/GetRobotInfo.swift"
+            timestampString = "566828339.398827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getRobotInfo(token:robotId:onCompletion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SopraStrator.getRobotInfo(token: Swift.String, onCompletion: (Swift.Array&lt;(Swift.String, Any)&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SopraStrator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bjerke/Documents/SopraStrator/SopraStrator/GetRobotInfo.swift"
+                  timestampString = "566826306.466688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1295">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SopraStrator.getRobotInfo(token: Swift.String, onCompletion: (Swift.Array&lt;(Swift.String, Any)&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SopraStrator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bjerke/Documents/SopraStrator/SopraStrator/GetRobotInfo.swift"
+                  timestampString = "566826306.469619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "3628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SopraStrator/ThirdViewController.swift"
+            timestampString = "566827527.212361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SopraStrator.ThirdViewController.pickerView(_: __C.UIPickerView, didSelectRow: Swift.Int, inComponent: Swift.Int) -&gt; ()"
+                  moduleName = "SopraStrator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bjerke/Documents/SopraStrator/SopraStrator/ThirdViewController.swift"
+                  timestampString = "566826306.477101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;(Swift.String, Any)&gt;) -&gt; () in SopraStrator.ThirdViewController.pickerView(_: __C.UIPickerView, didSelectRow: Swift.Int, inComponent: Swift.Int) -&gt; ()"
+                  moduleName = "SopraStrator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bjerke/Documents/SopraStrator/SopraStrator/ThirdViewController.swift"
+                  timestampString = "566826306.479476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SopraStrator/GetRobotInfo.swift"
+            timestampString = "566828339.399443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getRobotInfo(token:robotId:onCompletion:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

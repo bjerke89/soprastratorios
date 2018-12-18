@@ -19,7 +19,7 @@ func displayPopup(loginStatus: Bool, error: String) {
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { ACTION in
             
             
-            self.performSegue(withIdentifier: "PickView", sender: self)
+            self.performSegue(withIdentifier: "ThirdScreen", sender: self)
         }))
         
         self.present(alertController, animated: true, completion: nil)

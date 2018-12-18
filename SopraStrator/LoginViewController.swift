@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 import JavaScriptCore
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     class GlobalToken {
         static var loginToken = String()
